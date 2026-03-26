@@ -38,15 +38,6 @@ Exploratory analysis of hourly ridership patterns in Washington D.C. (2011–201
 
 ---
 
-## Skills Demonstrated
-- Supervised ML: classification and regression
-- Model evaluation: confusion matrix, precision/recall, accuracy
-- Feature engineering and interaction terms
-- Class imbalance handling
-- EDA and data visualization
-- Translating statistical output into business recommendations
-
-
 ### Tips Dataset Regression Analysis
 **Tools:** Python (statsmodels, seaborn)  
 **File:** `tips_regression_analysis.ipynb`
