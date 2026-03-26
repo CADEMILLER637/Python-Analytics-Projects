@@ -10,28 +10,6 @@ an actionable business recommendation.
 
 ## Projects
 
-### Bank Marketing Subscription Classifier
-**Tools:** Python, RapidMiner AI Studio (scikit-learn, pandas)  
-**File:** `bank_marketing_classification.ipynb`
-
-Compared Decision Tree and K-NN classification models on a 
-4,311-record imbalanced dataset (88.5% majority class) to predict 
-which bank clients would subscribe to a term deposit.
-
-Key finding: K-NN achieved 88.48% accuracy by predicting "No" 
-for every single record — never identifying a single subscriber. 
-The Decision Tree's lower accuracy was far more valuable because 
-it actually identified true positives. Demonstrated why confusion 
-matrices and precision/recall matter more than raw accuracy on 
-imbalanced datasets.
-
-Business recommendation: Deploy the Decision Tree as a 
-pre-campaign scoring tool to prioritize outreach toward 
-high-probability subscribers, reducing call volume and 
-improving conversion rates.
-
----
-
 ### Insurance Charges Regression Model
 **Tools:** Python (statsmodels, pandas, seaborn)  
 **File:** `insurance_charges_ols_regression.ipynb`
